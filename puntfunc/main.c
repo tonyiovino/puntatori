@@ -14,7 +14,7 @@ int main() {
 
 	printf("Okay, ora generiamone qualcuno\n");
 	myvect_random(v, SIZE_V, 1, 20);
-	myvect_apply(v, SIZE_V, *print_vect(v));
+	myvect_apply(v, SIZE_V, print_vect);
 
 	return 0;
 }
