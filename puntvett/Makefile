@@ -2,9 +2,9 @@ CC=gcc
 CFLAGS=-Wall -ansi -pedantic
 LDLIBS=
 
-main: main.o
+stampa_vett: stampa_vett.o
 
-main.o: main.c
+stampa_vett.o: stampa_vett.c
 
 .PHONY: clean
 clean:
