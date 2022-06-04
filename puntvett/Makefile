@@ -8,4 +8,4 @@ stampa_vett.o: stampa_vett.c
 
 .PHONY: clean
 clean:
-	rm -f *.o main
+	rm -f *.o stampa_vett
